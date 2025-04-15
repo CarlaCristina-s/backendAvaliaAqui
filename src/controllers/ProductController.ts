@@ -31,6 +31,16 @@ class ProductController {
     }
   };
 
+  findAll = async (req: Request, res: Response) => {
+    try {
+      const products = await this.productRepository.find() 
+        res.status(200).json(products);
+        return
+    } catch (error) {
+      res.status(500).json({ message: "Internal server error" });
+    }
+  };
+
   }
 
 export default ProductController;

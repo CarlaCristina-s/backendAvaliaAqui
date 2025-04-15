@@ -1,0 +1,3 @@
+[15-04-2025 08:03:23.008 PM] info: 	O servidor está rodando em http://localhost:3000
+[15-04-2025 08:30:13.839 PM] info: 	O servidor está rodando em http://localhost:3000
+[15-04-2025 08:30:41.383 PM] info: 	O servidor está rodando em http://localhost:3000
