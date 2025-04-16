@@ -47,6 +47,27 @@ class ReviewController {
       res.status(500).json({ message: "Internal server error" });
     }
   };
+
+  findById = async (req: Request, res: Response) => {
+    try {
+      const { id } = req.params;
+  
+      const review = await this.reviewRepository.findOne({
+        where: { id: Number(id) },
+      });
+  
+      if (!review) {
+        res.status(404).json({ message: "Review not found" });
+        return;
+      }
+  
+      res.status(200).json(review);
+      return;
+    } catch (error) {
+      res.status(500).json({ message: "Internal server error" });
+      return;
+    }
+  };
 }
 
 export default ReviewController;
