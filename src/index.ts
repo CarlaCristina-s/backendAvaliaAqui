@@ -7,6 +7,7 @@ import { AppDataSource } from "./data-source";
 import cors from "cors";
 
 import productRouter from "./routes/product.routes";
+import reviewRouter from "./routes/review.routes";
 
 import { handleError } from "./middlewares/handleError";
 
@@ -19,6 +20,7 @@ app.use(cors());
 app.use(express.json()); 
 
 app.use("/products", productRouter);
+app.use("/reviews", reviewRouter);
 
 app.get("/env", (req, res) => {
   res.json({

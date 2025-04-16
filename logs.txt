@@ -1,3 +1,15 @@
 [15-04-2025 08:03:23.008 PM] info: 	O servidor está rodando em http://localhost:3000
 [15-04-2025 08:30:13.839 PM] info: 	O servidor está rodando em http://localhost:3000
 [15-04-2025 08:30:41.383 PM] info: 	O servidor está rodando em http://localhost:3000
+[15-04-2025 08:31:05.054 PM] info: 	O servidor está rodando em http://localhost:3000
+[15-04-2025 09:57:41.764 PM] info: 	O servidor está rodando em http://localhost:3000
+[15-04-2025 09:57:51.437 PM] info: 	O servidor está rodando em http://localhost:3000
+[15-04-2025 09:57:54.432 PM] info: 	O servidor está rodando em http://localhost:3000
+[15-04-2025 09:57:56.594 PM] info: 	O servidor está rodando em http://localhost:3000
+[15-04-2025 09:58:53.799 PM] info: 	O servidor está rodando em http://localhost:3000
+[15-04-2025 10:03:24.426 PM] info: 	O servidor está rodando em http://localhost:3000
+[15-04-2025 10:03:43.222 PM] info: 	O servidor está rodando em http://localhost:3000
+[15-04-2025 10:04:17.398 PM] info: 	O servidor está rodando em http://localhost:3000
+[15-04-2025 10:05:13.957 PM] info: 	O servidor está rodando em http://localhost:3000
+[15-04-2025 10:05:18.681 PM] info: 	O servidor está rodando em http://localhost:3000
+[15-04-2025 10:05:25.554 PM] info: 	O servidor está rodando em http://localhost:3000
